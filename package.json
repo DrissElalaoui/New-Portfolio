@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drisselalaoui.github.io/xxxx",
+  "homepage": "https://DrissElalaoui.github.io/New-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
