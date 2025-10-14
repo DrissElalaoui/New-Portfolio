@@ -14,7 +14,8 @@ export default function CardSkilles({iconSkilles , title , colorIcon , content ,
                 justifyContent : 'center',
                 flexDirection: 'column',
                 padding: "8px",
-                border: `1px solid ${colorIcon}`
+                border: `1px solid ${colorIcon}`,
+                margin: 'auto',
             }} >
                 <h3 >{title}</h3>
                 <div style={{width: '70px' , height: '70px' , margin: '10px 0 0 '}}><i style={{  fontSize: '60px' ,color: colorIcon}} className={iconSkilles}></i></div>

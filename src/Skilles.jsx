@@ -131,15 +131,15 @@ export default function Skilles() {
                 >
           
         <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexWrap:'wrap',
+            // display: 'flex',
+            // alignItems: 'center',
+            // justifyContent: 'center',
+            // flexWrap:'wrap',
         }}>
             {
             listeSkilles.map((para) => {
             return (
-                <SwiperSlide>
+                <SwiperSlide style={{backgroundColor: 'red'}}>
                     <CardSkilles key={para.key}  lien={para.lien} content= {para.content} title = {para.title} iconSkilles= {para.iconSkilles} colorIcon = {para.colorIcon}/>
                 </SwiperSlide>
             ) 
