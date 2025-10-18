@@ -33,7 +33,7 @@ html.dark {
   color: white;
 }
 .dark .cardServices {
-  background-color: #222222;
+  background-color: #141414;
 }
 .dark span {
   color: #48bbd4;
@@ -400,7 +400,7 @@ textarea {
   width: 200px;
 }
 .dark .bobe  {
-  background-color: #1d1d1d;
+  background-color: #0f0f0f;
 }
 .h3 {
   display: none;
